@@ -27,7 +27,7 @@
     "url": "https://github.com/Djeg/fedux/issues"
   },
   "homepage": "https://github.com/Djeg/fedux#readme",
-  "dependencies": {
+  "peerDependencies": {
     "@types/ramda": "^0.27.38",
     "@types/react": "^17.0.3",
     "@types/react-redux": "^7.1.16",
@@ -38,6 +38,7 @@
   },
   "devDependencies": {
     "@types/jest": "^26.0.20",
+    "check-peer-dependencies": "^4.0.0",
     "jest": "^26.6.3",
     "ts-jest": "^26.5.3",
     "typescript": "^4.2.3"
